@@ -1,0 +1,38 @@
+get
+   http:/localhost:1251/api/admin
+   http:/localhost:1251/api/category
+   http:/localhost:1251/api/subcategory
+   http:/localhost:1251/api/elon
+
+post
+   http:/localhost:1251/api/login
+       {
+        "admin_name":"dictator",
+        "admin_password":"magnus"
+       }
+
+
+   http:/localhost:1251/api/category
+       {
+        "category_name":"lop",
+       }
+
+   http:/localhost:1251/api/subcategory
+       {
+        "subcategory_name":"lop",
+        id:1
+       }
+   http:/localhost:1251/api/elon
+       {
+        "dictator": "Rolo",
+        "job":"coder",
+        "phone":"+998935313704",
+        "time":"13:00",
+        "date":"21/21/21",
+        "event":"online", 
+        "description":"good good good",
+        "link":"image_link",
+        "subcategory_id": 6,
+        "image":"https.ls"
+      }
+
